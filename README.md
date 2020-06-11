@@ -3,9 +3,8 @@
 ## Table of Contents
 
 1. [Summary](#summary)
-2. [Setting up a Spark Cluster](#spark)
-3. [How to run the script](#run)
-4. [About](#about)
+2. [How to run the script](#run)
+3. [About](#about)
 
 ## <a name="summary"></a>Summary
 The purpose of this project is to provide Sparkify the necessary tools to retrieve vital and business oriented information about their services provided. Their current focus is to be able to retrieve information easily and fast about which songs users are listening to. Information about this is stored in logfiles but it is not easy to search or aggregate data from these logfiles. In the Data Lake assignment we have been asked to transform data from the logfiles together with meta data about songs (also stored in files) into a business oriented (star) database design that will allow Sparkify to meet their business need related to for example finding out which songs their users are listening to and when.
@@ -47,5 +46,5 @@ Once logged in, you can run the python script like below (after you have copied 
 
 _spark-submit etl.py_
 
-##<a name="about"></a> About:
+## <a name="about"></a> About:
 This project is done as part of Udacity Data Engineer Nano degree program
